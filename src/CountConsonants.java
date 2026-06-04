@@ -7,7 +7,6 @@ public class CountConsonants {
 
         System.out.print("Enter a word: ");
         String word = scanner.next();
-        System.out.println(word.length());
 
         int length = word.length(); // length of the string
         int count = 0;
