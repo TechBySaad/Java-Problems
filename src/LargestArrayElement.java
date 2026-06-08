@@ -15,7 +15,7 @@ public class LargestArrayElement {
 
         // taking the elements to add in an array
         for (int i = 0; i < size; i++) {
-            System.out.print("Enter the #" + i + " element: ");
+            System.out.print("Enter the #" + (i+1) + " element: ");
             numbers[i] = scanner.nextInt();
         }
 

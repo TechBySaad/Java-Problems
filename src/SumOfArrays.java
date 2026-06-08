@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SmallestArray {
+public class SumOfArrays {
     static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -10,24 +10,17 @@ public class SmallestArray {
 
         int[] numbers = new int[size];
 
-        for(int i = 0 ; i < size; i++){
-
+        for (int i = 0; i < size; i++) {
             System.out.print("Enter the #" + (i+1) + " number: ");
             numbers[i] = scanner.nextInt();
         }
 
-        int smallest = numbers[0];
+        int sum = 0;
 
-        for (int i = 1; i < size; i++) {
-            int number = numbers[i];
-            if(smallest>number){
-                smallest = number;
-            }
+        for (int i = 0; i < size; i++) {
+            sum = numbers[i] + sum;
         }
-
-        System.out.println("The Smallest element is: "+ smallest);
-
+        System.out.println("Sum of Arrays is: " +sum);
         scanner.close();
     }
-
 }
