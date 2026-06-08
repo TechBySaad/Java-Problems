@@ -19,8 +19,6 @@ public class LargestArrayElement {
             numbers[i] = scanner.nextInt();
         }
 
-
-
         int largest = numbers[0];
         int length = numbers.length;
 
