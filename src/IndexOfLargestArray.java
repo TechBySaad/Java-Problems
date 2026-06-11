@@ -24,7 +24,8 @@ public class IndexOfLargestArray {
 
             }
         }
-        System.out.println(index);
+        System.out.println("Largest element: " + largest);
+        System.out.println("Index: " + index);
 
     }
 
